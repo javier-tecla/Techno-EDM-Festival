@@ -467,14 +467,13 @@ body > section {
     gap: 5rem;
   }
 }
-
-.contenido-festival {
+.sobre-festival .contenido-festival {
   margin-top: 5rem;
 }
-.contenido-festival h2 {
+.sobre-festival .contenido-festival h2 {
   margin-bottom: 2rem;
 }
-.contenido-festival .fecha {
+.sobre-festival .contenido-festival .fecha {
   color: #4CB8B3;
   font-weight: 700;
 }
