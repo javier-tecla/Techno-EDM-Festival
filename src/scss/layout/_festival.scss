@@ -3,13 +3,18 @@
 
 .sobre-festival {
   @include m.contenedor;
+  
 
   @include m.tablet {
+    @include m.grid(1);
+  }
+  @include m.desktop {
     @include m.grid(2);
   }
 
   .contenido-festival {
-    margin-top: 5rem;
+    margin-top: 2rem;
+    
 
     h2 {
       margin-bottom: 2rem;
